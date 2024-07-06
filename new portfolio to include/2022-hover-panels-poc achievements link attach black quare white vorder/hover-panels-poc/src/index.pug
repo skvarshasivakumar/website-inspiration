@@ -1,0 +1,22 @@
+- 
+  const CASES = [
+    {
+      title: 'Microservices Orchestration',
+    },
+    {
+      title: 'Financial Transactions',
+    },
+    {
+      title: 'Resource Provisioning',
+    },
+    {
+      title: 'Monitoring',
+    },
+  ]
+  
+.grid.grid-flow-col.auto-cols-max.gap-6
+  - for (const item of CASES)
+    .grid__item.item.w-40.h-40.text-white.relative
+      .item__content.h-full.w-full.p-4.bg-black.relative.border-2
+        .font-bold.mb-2= item.title
+        p lorem ipsum dolar sit amet.

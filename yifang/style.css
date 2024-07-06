@@ -1,0 +1,16 @@
+.row{
+      margin-top: 200px;
+      margin-bottom: 300px;
+    }
+    .first{
+      background:url(http://colorlisa.com/pictures/188_1.jpg) center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 800px;
+    }
+    h1{
+      color: #fff;
+      font-size: 5em;
+      text-align: center;
+      padding-top: 80px;
+    }
